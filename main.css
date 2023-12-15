@@ -1,0 +1,76 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  background-color: rgb(222, 222, 222);
+  width: 600px;
+  height: 85svh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(82, 82, 82);
+  align-items: center;
+}
+.main form {
+  width: 300px;
+  position: relative;
+  display: grid;
+}
+.main form select {
+  width: 300px;
+}
+.main form label {
+  width: 300px;
+  position: relative;
+}
+.main form input {
+  width: 300px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+}
+.main form .btn {
+  margin-top: 10px;
+}
+.main form .btn input {
+  position: relative;
+  left: 15%;
+  width: 200px;
+  transition: all 0.4s;
+}
+.main form .btn input:hover {
+  background-color: rgb(82, 82, 82);
+  color: rgb(255, 255, 255);
+}
+.main #tableContainer {
+  text-align: center;
+  margin-top: 30px;
+}
+.main #tableContainer table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.main #tableContainer th,
+.main #tableContainer td {
+  border: 1px solid rgb(82, 82, 82);
+  text-align: left;
+  padding: 8px;
+  font-size: 15px;
+}
+.main #tableContainer th {
+  background-color: rgb(255, 255, 255);
+}/*# sourceMappingURL=main.css.map */

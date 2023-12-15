@@ -1,0 +1,81 @@
+@import "./color";
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  background-color: $L-white;
+  width: 600px;
+  height: 85svh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px $L-black;
+  align-items: center;
+  form {
+    width: 300px;
+    position: relative;
+    display: grid;
+
+    select {
+      width: 300px;
+    }
+    label {
+      width: 300px;
+      position: relative;
+    }
+    input {
+      width: 300px;
+      padding: 5px;
+      border: none;
+      border-radius: 5px;
+      background-color: $white;
+      outline: none;
+    }
+    .btn {
+      margin-top: 10px;
+      input {
+        position: relative;
+        left: 15%;
+        width: 200px;
+        transition: all 0.4s;
+
+        &:hover {
+          background-color: $L-black;
+          color: $white;
+        }
+      }
+    }
+  }
+
+  #tableContainer {
+    text-align: center;
+    margin-top: 30px;
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th,
+    td {
+      border: 1px solid $L-black;
+      text-align: left;
+      padding: 8px;
+      font-size: 15px;
+    }
+
+    th {
+      background-color: $white;
+    }
+  }
+}
